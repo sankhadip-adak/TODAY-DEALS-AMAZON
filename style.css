@@ -1,0 +1,78 @@
+.container{
+    height: 420px;
+     width: 95%;
+    background-color: rgba(235, 232, 232, 0.6);
+    margin: auto;
+    padding: 0 20px;
+    }
+    .deals{
+        display: flex;
+    }
+    #button{
+        margin-top: 25px;
+        margin-left: 10px;
+     }
+    a{
+        margin-left:50px;
+    }
+    #box{
+        display: grid;
+        grid-template-columns:repeat(5, 1fr);
+        grid-template-rows:300px;
+        gap: 25px;  
+    }
+    .image{
+        background: rgb(255, 255, 255);
+    }
+    #one{
+        text-align: center;
+    }
+    .offer{
+        height: 15px;
+        width: 15px;
+        background-color: rgb(244, 30, 66);
+        color: white;
+    }
+    .duration{
+        color: rgb(244, 30, 66);
+    }
+    .lower{
+        line-height: 9px;
+        margin-top: 10px;
+    }
+    #photo{
+        background-color: rgb(255, 0, 43);
+    }
+    .button{
+        position: absolute; 
+        top: 25%;
+        width: 25px;
+        height: 69px;
+        background-color: green;
+    }
+    .right{
+        right: 2;
+      }
+      .left{
+        left:1;
+      }
+    
+    i{
+        margin-top: 45px;
+    }
+    #mobile{
+        margin-bottom: 0px;
+    }
+    .background{
+        background-color: rgb(236, 232, 232);
+            padding-top: 10px;
+ }
+ @media screen and (max-width: 900px)  {
+    #box {grid-template-columns: repeat(2,1fr);
+    }
+  }
+
+  @media screen and (max-width: 480px)  {
+    #box {grid-template-columns: repeat(1,1fr);
+    }
+  }
